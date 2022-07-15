@@ -1,0 +1,80 @@
+*, *::after, *::before {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header {
+    display:inline-flex;
+    justify-content: space-between;
+    background-color: #c56cf0;
+    width: 100%;
+}
+
+#img_avatar {
+    background-color: #ffb8b8;
+    width: 9rem;
+    height: 9rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#dow_cv {
+    font-display: inline-block;
+    background-color: #ffb8b8;
+    padding: 2rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 9rem;
+    height: 1rem;
+}
+
+#secao_banner {
+    background: url("../assets/img/perfil2.png") no-repeat fixed;
+    background-size: 100% 100%;
+    width: auto;
+    height: calc(0rem + 35vw);
+    border-width: 5px 0px 5px 0px;
+    border-style: solid;
+    padding: 50px;
+    margin-top: 0px;
+}
+
+#box_nome {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffb8b8;
+    width: calc(0rem + 40vw);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: calc(0rem + 0.1vw);
+    padding-right: 1rem;
+    box-shadow: black 1rem 1rem;
+    align-items: center;
+}
+
+#nome {
+    font-size: calc(0rem + 3vw);
+}
+
+#cargo {
+    font-size: calc(0rem + 2vw);
+}
+
+#secao_hab_sobre {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+#aside_hab {
+    background-color: #c56cf0;
+    width: 50%;
+}
+
+#aside_sobre {
+    background-color: #ffcccc;
+    width: 50%;
+}
